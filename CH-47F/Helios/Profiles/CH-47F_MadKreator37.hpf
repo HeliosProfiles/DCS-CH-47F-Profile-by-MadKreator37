@@ -12,28 +12,16 @@
       <Children />
     </Monitor>
     <Monitor>
-      <Location>958,2160</Location>
+      <Location>992,2160</Location>
       <Size>1920,1080</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
       <AlwaysOnTop>True</AlwaysOnTop>
-      <Background />
+      <Background>
+        <Image>MadKreator37\CH-47F\Background_Pilot_8.png</Image>
+        <ImageAlignment>Stretched</ImageAlignment>
+      </Background>
       <Children>
-        <Control TypeIdentifier="Helios.Panel" Name="Background" SnapTarget="True" Locked="False">
-          <Location>0,0</Location>
-          <Size>1922,1080</Size>
-          <Hidden>False</Hidden>
-          <Background>
-            <Image>MadKreator37\CH-47F\Background_Pilot_8.png</Image>
-            <ImageAlignment>Stretched</ImageAlignment>
-          </Background>
-          <Interaction>
-            <AllowInteractionFull>False</AllowInteractionFull>
-            <AllowInteractionNone>True</AllowInteractionNone>
-            <AllowInteractionLegacy>False</AllowInteractionLegacy>
-          </Interaction>
-          <Children />
-        </Control>
         <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="True" Locked="True">
           <Image>MadKreator37\CH-47F\Round_Shadow_2.png</Image>
           <Alignment>Stretched</Alignment>
@@ -99,7 +87,7 @@
               <OffFlag_Width>50</OffFlag_Width>
               <OffFlag_Height>50</OffFlag_Height>
               <OffFlag_IsHidden>False</OffFlag_IsHidden>
-              <MinHorizontal>50</MinHorizontal>
+              <MinHorizontal>46</MinHorizontal>
               <HorizontalTravel>143</HorizontalTravel>
               <MinVertical>87</MinVertical>
               <VerticalTravel>96</VerticalTravel>
@@ -201,7 +189,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.CH47F.RWR" Name="RWR" SnapTarget="True" Locked="True">
-          <Location>4,317</Location>
+          <Location>4,316</Location>
           <Size>210,210</Size>
           <Hidden>False</Hidden>
           <EmbeddedViewportName>CH47F_RWR</EmbeddedViewportName>
@@ -260,8 +248,8 @@
               <OffFlag_Width>50</OffFlag_Width>
               <OffFlag_Height>50</OffFlag_Height>
               <OffFlag_IsHidden>False</OffFlag_IsHidden>
-              <MinHorizontal>36</MinHorizontal>
-              <HorizontalTravel>-578</HorizontalTravel>
+              <MinHorizontal>38</MinHorizontal>
+              <HorizontalTravel>-576</HorizontalTravel>
               <MinVertical>15</MinVertical>
               <VerticalTravel>-15</VerticalTravel>
               <MinRotation>-10</MinRotation>
@@ -275,6 +263,15 @@
               <MaxInputVertical>90</MaxInputVertical>
               <MinInputRotation>-90</MinInputRotation>
               <MaxInputRotation>90</MaxInputRotation>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="centerline" SnapTarget="False" Locked="True">
+              <Image>MadKreator37\CH-47F\Needles_Tapes_Pointers\Compass_Line.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>105,117</Location>
+              <Size>2,100</Size>
+              <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="reflect 1" SnapTarget="False" Locked="True">
@@ -462,7 +459,7 @@
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="RAlt Panel" SnapTarget="True" Locked="True">
-          <Location>708,625</Location>
+          <Location>708,621</Location>
           <Size>220,210</Size>
           <Hidden>False</Hidden>
           <Background />
@@ -684,7 +681,7 @@
           <Image>MadKreator37\CH-47F\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>759,844</Location>
+          <Location>760,846</Location>
           <Size>120,50</Size>
           <Hidden>False</Hidden>
           <Children />
@@ -1028,7 +1025,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="CONTROL CENTER BUTTON" SnapTarget="True" Locked="True">
-          <Location>775,850</Location>
+          <Location>776,852</Location>
           <Size>84,32</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -1141,112 +1138,42 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PotentiometerClickable" Name="Fire 1 twist" SnapTarget="True" Locked="True">
-          <ButtonClickType>Momentary</ButtonClickType>
-          <PushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_Pulled_Lit_2png.png</PushedImage>
-          <UnpushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_Pulled_Lit_2png.png</UnpushedImage>
-          <Location>253,9</Location>
-          <Size>195,195</Size>
-          <Hidden>True</Hidden>
-          <KnobImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_Pulled_Lit_2png.png</KnobImage>
+        <Control TypeIdentifier="Helios.Base.PotentiometerIndicatorClickable" Name="Fire Handle 1" SnapTarget="True" Locked="True">
+          <PushedIndicatorOnImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Left_Pulled_Lit.png</PushedIndicatorOnImage>
+          <UnpushedIndicatorOnImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Left_Norm_Lit.png</UnpushedIndicatorOnImage>
+          <ButtonClickType>Toggle</ButtonClickType>
+          <PushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Left_Pulled.png</PushedImage>
+          <UnpushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Left_Norm.png</UnpushedImage>
+          <AllowRotation>Clicked</AllowRotation>
+          <Location>253,73</Location>
+          <Size>205,50</Size>
+          <Hidden>False</Hidden>
+          <KnobImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Left_Norm.png</KnobImage>
           <InitialValue>0.5</InitialValue>
-          <StepValue>0.1</StepValue>
+          <StepValue>0.25</StepValue>
           <MaxValue>1</MaxValue>
           <MinValue>0</MinValue>
-          <InitialRotation>311.934279974431</InitialRotation>
-          <RotationTravel>95.8770412045044</RotationTravel>
+          <InitialRotation>318.815891540238</InitialRotation>
+          <RotationTravel>82.2387207310104</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Fire 1 Pull" SnapTarget="True" Locked="True">
-          <Location>253,9</Location>
-          <Size>195,195</Size>
+        <Control TypeIdentifier="Helios.Base.PotentiometerIndicatorClickable" Name="Fire Handle 2" SnapTarget="True" Locked="True">
+          <PushedIndicatorOnImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Right_Pulled_Lit.png</PushedIndicatorOnImage>
+          <UnpushedIndicatorOnImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Right_Norm_Lit.png</UnpushedIndicatorOnImage>
+          <ButtonClickType>Toggle</ButtonClickType>
+          <PushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Right_Pulled.png</PushedImage>
+          <UnpushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Right_Norm.png</UnpushedImage>
+          <AllowRotation>Clicked</AllowRotation>
+          <Location>467,73</Location>
+          <Size>205,51</Size>
           <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_Norm_2.png</Image>
-          <PushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_Pulled_Lit_2png.png</PushedImage>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="Fire 1 Ind" SnapTarget="True" Locked="True">
-          <OnImage>MadKreator37\CH-47F\Indicators\Fire_Pull.png</OnImage>
-          <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
-          <Font>
-            <FontFamily>Franklin Gothic</FontFamily>
-            <FontStyle>Normal</FontStyle>
-            <FontWeight>Normal</FontWeight>
-            <FontSize>8</FontSize>
-            <HorizontalAlignment>Center</HorizontalAlignment>
-            <VerticalAlignment>Center</VerticalAlignment>
-            <Padding>
-              <Left>0</Left>
-              <Top>0</Top>
-              <Right>0</Right>
-              <Bottom>0</Bottom>
-            </Padding>
-          </Font>
-          <Text />
-          <OnTextColor>#FFB3A229</OnTextColor>
-          <OffTextColor>#FF1C1C1C</OffTextColor>
-          <ScalingMode>Height</ScalingMode>
-          <Interaction>
-            <AllowInteraction>True</AllowInteraction>
-          </Interaction>
-          <Location>275,88</Location>
-          <Size>146,36</Size>
-          <Hidden>False</Hidden>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PotentiometerClickable" Name="Fire 2 twist " SnapTarget="True" Locked="True">
-          <ButtonClickType>Momentary</ButtonClickType>
-          <PushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_2_Pulled_Lit_2.png</PushedImage>
-          <UnpushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_2_Pulled_Lit_2.png</UnpushedImage>
-          <Location>474,9</Location>
-          <Size>195,195</Size>
-          <Hidden>True</Hidden>
-          <KnobImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_2_Pulled_Lit_2.png</KnobImage>
+          <KnobImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Right_Norm.png</KnobImage>
           <InitialValue>0.5</InitialValue>
-          <StepValue>0.1</StepValue>
+          <StepValue>0.25</StepValue>
           <MaxValue>1</MaxValue>
           <MinValue>0</MinValue>
-          <InitialRotation>311.934279974431</InitialRotation>
-          <RotationTravel>95.8770412045044</RotationTravel>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Fire 2 Pull " SnapTarget="True" Locked="True">
-          <Location>474,9</Location>
-          <Size>195,195</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_Norm_2.png</Image>
-          <PushedImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Fire_Handle_2_Pulled_Lit_2.png</PushedImage>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="Fire 2 Ind " SnapTarget="True" Locked="True">
-          <OnImage>MadKreator37\CH-47F\Indicators\Fire_Pull_2.png</OnImage>
-          <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
-          <Font>
-            <FontFamily>Franklin Gothic</FontFamily>
-            <FontStyle>Normal</FontStyle>
-            <FontWeight>Normal</FontWeight>
-            <FontSize>6.44444444444444</FontSize>
-            <HorizontalAlignment>Center</HorizontalAlignment>
-            <VerticalAlignment>Center</VerticalAlignment>
-            <Padding>
-              <Left>0</Left>
-              <Top>0</Top>
-              <Right>0</Right>
-              <Bottom>0</Bottom>
-            </Padding>
-          </Font>
-          <Text />
-          <OnTextColor>#FFB3A229</OnTextColor>
-          <OffTextColor>#FF1C1C1C</OffTextColor>
-          <ScalingMode>Height</ScalingMode>
-          <Interaction>
-            <AllowInteraction>True</AllowInteraction>
-          </Interaction>
-          <Location>500,92</Location>
-          <Size>134,29</Size>
-          <Hidden>False</Hidden>
+          <InitialRotation>317.621992401857</InitialRotation>
+          <RotationTravel>84.6790653787898</RotationTravel>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="Front Hook Hoist Panel ACC" SnapTarget="True" Locked="True">
@@ -3527,12 +3454,12 @@
               <Location>0,85</Location>
               <Size>170,66</Size>
               <Hidden>False</Hidden>
-              <SwitchType>MomOn</SwitchType>
+              <SwitchType>OnMom</SwitchType>
               <Orientation>Vertical</Orientation>
               <ClickType>Touch</ClickType>
-              <PositionOneImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Wheelbrake_Pulled.png</PositionOneImage>
-              <PositionTwoImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Wheelbrake_Norm.png</PositionTwoImage>
-              <DefaultPosition>Two</DefaultPosition>
+              <PositionOneImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Wheelbrake_Norm.png</PositionOneImage>
+              <PositionTwoImage>MadKreator37\CH-47F\Buttons_Switches_Knobs\Wheelbrake_Pulled.png</PositionTwoImage>
+              <DefaultPosition>One</DefaultPosition>
               <Children />
             </Control>
           </Children>
@@ -3566,7 +3493,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="Overhead Panel 1" SnapTarget="True" Locked="True">
-          <Location>2,80</Location>
+          <Location>0,84</Location>
           <Size>1920,960</Size>
           <Hidden>True</Hidden>
           <Background>
@@ -6734,7 +6661,7 @@
       </Children>
     </Monitor>
     <Monitor>
-      <Location>3840,1440</Location>
+      <Location>3840,1445</Location>
       <Size>1920,1080</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
@@ -6743,7 +6670,7 @@
       <Children />
     </Monitor>
     <Monitor>
-      <Location>3853,0</Location>
+      <Location>3848,5</Location>
       <Size>5120,1440</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
@@ -9178,43 +9105,33 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 1 Fire Handle.changed" />
-      <Action Target="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 1 Fire Pull Switch.changed" />
-      <Action Target="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 1 FIRE Indicator.changed" />
-      <Action Target="Visual;Monitor 2.Fire 1 Ind;Helios.Base.Indicator;Fire 1 Ind" Name="set.indicator" />
+      <Action Target="Visual;Monitor 2.Fire Handle 1;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 1" Name="set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 1 Fire Pull Switch.changed" />
-      <Action Target="Visual;Monitor 2.Fire 1 Pull;Helios.Base.PushButton;Fire 1 Pull" Name="set.physical state" />
+      <Action Target="Visual;Monitor 2.Fire Handle 1;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 1" Name="set.physical state" />
+      <LuaScript>return TriggerValue == 1</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 1 Fire Handle.changed" />
+      <Action Target="Visual;Monitor 2.Fire Handle 1;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 1" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 2 FIRE Indicator.changed" />
-      <Action Target="Visual;Monitor 2.Fire 2 Ind ;Helios.Base.Indicator;Fire 2 Ind " Name="set.indicator" />
+      <Action Target="Visual;Monitor 2.Fire Handle 2;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 2" Name="set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 2 Fire Pull Switch.changed" />
-      <Action Target="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="set.physical state" />
-      <TriggerValue />
+      <Action Target="Visual;Monitor 2.Fire Handle 2;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 2" Name="set.physical state" />
+      <LuaScript>return TriggerValue == 1</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 2 Fire Handle.changed" />
-      <Action Target="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.Engine 2 Fire Pull Switch.changed" />
-      <Action Target="Visual;Monitor 2.Fire 2 Pull ;Helios.Base.PushButton;Fire 2 Pull " Name="set.physical state" />
+      <Action Target="Visual;Monitor 2.Fire Handle 2;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 2" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -11079,114 +10996,34 @@
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Fire Handle 1;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 1" Name="button closed" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 1 Fire Pull Switch" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Fire Handle 1;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 1" Name="button open" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 1 Fire Pull Switch" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Fire Handle 1;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 1" Name="value.changed" />
       <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 1 Fire Handle" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="button closed" />
-      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 1 Fire Pull Switch" />
+      <Trigger Source="Visual;Monitor 2.Fire Handle 2;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 2" Name="button closed" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 2 Fire Pull Switch" />
       <StaticValue>1</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="button open" />
-      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 1 Fire Pull Switch" />
+      <Trigger Source="Visual;Monitor 2.Fire Handle 2;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 2" Name="button open" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 2 Fire Pull Switch" />
       <StaticValue>2</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="button pushed" />
-      <Action Target="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="button pushed" />
-      <Action Target="Visual;Monitor 2.Fire 1 Ind;Helios.Base.Indicator;Fire 1 Ind" Name="set.hidden" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="button pushed" />
-      <Action Target="Visual;Monitor 2.Fire 1 Pull;Helios.Base.PushButton;Fire 1 Pull" Name="set.hidden" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="button pushed" />
-      <Action Target="Visual;Monitor 2.Fire 1 Pull;Helios.Base.PushButton;Fire 1 Pull" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 Pull;Helios.Base.PushButton;Fire 1 Pull" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Fire 1 Pull;Helios.Base.PushButton;Fire 1 Pull" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 Pull;Helios.Base.PushButton;Fire 1 Pull" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Fire 1 twist;Helios.Base.PotentiometerClickable;Fire 1 twist" Name="set.hidden" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 Pull;Helios.Base.PushButton;Fire 1 Pull" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Fire 1 Ind;Helios.Base.Indicator;Fire 1 Ind" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 1 Pull;Helios.Base.PushButton;Fire 1 Pull" Name="pushed" />
-      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 1 Fire Pull Switch" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="button pushed" />
-      <Action Target="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="button pushed" />
-      <Action Target="Visual;Monitor 2.Fire 2 Ind ;Helios.Base.Indicator;Fire 2 Ind " Name="set.hidden" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="button pushed" />
-      <Action Target="Visual;Monitor 2.Fire 2 Pull ;Helios.Base.PushButton;Fire 2 Pull " Name="set.hidden" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="button pushed" />
-      <Action Target="Visual;Monitor 2.Fire 2 Pull ;Helios.Base.PushButton;Fire 2 Pull " Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Fire Handle 2;Helios.Base.PotentiometerIndicatorClickable;Fire Handle 2" Name="value.changed" />
       <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 2 Fire Handle" />
       <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="button closed" />
-      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 2 Fire Pull Switch" />
-      <StaticValue>1</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="button open" />
-      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 2 Fire Pull Switch" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 Pull ;Helios.Base.PushButton;Fire 2 Pull " Name="pushed" />
-      <Action Target="Visual;Monitor 2.Fire 2 twist ;Helios.Base.PotentiometerClickable;Fire 2 twist " Name="set.hidden" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 Pull ;Helios.Base.PushButton;Fire 2 Pull " Name="pushed" />
-      <Action Target="Visual;Monitor 2.Fire 2 Pull ;Helios.Base.PushButton;Fire 2 Pull " Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 Pull ;Helios.Base.PushButton;Fire 2 Pull " Name="pushed" />
-      <Action Target="Visual;Monitor 2.Fire 2 Ind ;Helios.Base.Indicator;Fire 2 Ind " Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Fire 2 Pull ;Helios.Base.PushButton;Fire 2 Pull " Name="pushed" />
-      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Canted Console.set.Engine 2 Fire Pull Switch" />
-      <StaticValue>2</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Front Hook Hoist Panel ACC.hook master;Helios.Base.ThreeWayToggleSwitch;hook master" Name="position.changed" />
@@ -12411,12 +12248,12 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.F_Key Panel ACC.f1 button 1 1 1 2;Helios.Base.PushButton;f1 button 1 1 1 2" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{LALT}b</StaticValue>
+      <StaticValue>{LALT}'</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.F_Key Panel ACC.f1 button 1 1 1 1 1 1 1 1 2;Helios.Base.PushButton;f1 button 1 1 1 1 1 1 1 1 2" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{LALT}'</StaticValue>
+      <StaticValue>{LALT}b</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.F_Key Panel ACC.f1 button 1 1 1 1 1 1 1 1 1 2 2;Helios.Base.PushButton;f1 button 1 1 1 1 1 1 1 1 1 2 2" Name="released" />
