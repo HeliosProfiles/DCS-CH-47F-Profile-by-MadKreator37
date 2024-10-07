@@ -3478,7 +3478,7 @@
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="OHDFiller L" SnapTarget="True" Locked="True">
           <Location>0,0</Location>
-          <Size>904,80</Size>
+          <Size>902,110</Size>
           <Hidden>True</Hidden>
           <Background>
             <Color>#E0000000</Color>
