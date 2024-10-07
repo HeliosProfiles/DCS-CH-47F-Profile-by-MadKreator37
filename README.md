@@ -19,7 +19,7 @@ This is a profile for Helios Virtual Cockpit software, for use with DCS World
 
 ### ABOUT
 
-### Minimum Helios version required: 1.6.6110.5
+### Minimum Helios version required: 1.6.6110.0005
 
 ### Please download and install via the Helios16 installer under ASSETS. Do not clone the repo and copy the files. The profile will not function correctly!
 
