@@ -17,11 +17,23 @@
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
       <AlwaysOnTop>True</AlwaysOnTop>
-      <Background>
-        <Image>MadKreator37\CH-47F\Background_Pilot_8.png</Image>
-        <ImageAlignment>Stretched</ImageAlignment>
-      </Background>
+      <Background />
       <Children>
+        <Control TypeIdentifier="Helios.Panel" Name="Background" SnapTarget="True" Locked="True">
+          <Location>0,0</Location>
+          <Size>1920,1080</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Image>MadKreator37\CH-47F\Background_Pilot_8.png</Image>
+            <ImageAlignment>Stretched</ImageAlignment>
+          </Background>
+          <Interaction>
+            <AllowInteractionFull>False</AllowInteractionFull>
+            <AllowInteractionNone>True</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children />
+        </Control>
         <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="True" Locked="True">
           <Image>MadKreator37\CH-47F\Round_Shadow_2.png</Image>
           <Alignment>Stretched</Alignment>
