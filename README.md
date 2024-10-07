@@ -1,5 +1,4 @@
 # Helios Profile for the CH-47F Chinook by MadKreator37
-This is a profile for Helios Virtual Cockpit to support the _aircraft.
 
 # Helios Profile for the CH-47F Chinook (Pilot Only) for DCS World by MadKreator37
 ----
