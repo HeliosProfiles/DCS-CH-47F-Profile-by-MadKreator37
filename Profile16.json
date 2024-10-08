@@ -5,7 +5,7 @@
 	"License":	"GPL V3",
 	"Aicraft":	"_Vehicle",
 	"Version":	"_ProfileVersionNumber",
-	"Description":	"_Author's Profile for Eagle Dynamics' {aircraft} in DCS World",
+	"Description":	"_Author's Profile for Eagle Dynamics' _Vehicle in DCS World",
 	"Requirements":	"None",
 	"Repository":	"_Repository",
 	"VersionsRequired": [
@@ -23,7 +23,7 @@
 					"Version":	"_ProfileVersionNumber",
 					"AspectRatio": "16:9",
 					"NativeResolution": "1920x1080",
-                    "Description": "Aicraft:\t\t_Author {aircraft} _ProfileVersionNumber\nRequirements:\tHelios _MinimumReleaseLevel or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
+                    "Description": "Aicraft:\t\t_Author _Vehicle _ProfileVersionNumber\nRequirements:\tHelios _MinimumReleaseLevel or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
                     "Excludes": [
                     ],
 					"VersionsRequired": [
