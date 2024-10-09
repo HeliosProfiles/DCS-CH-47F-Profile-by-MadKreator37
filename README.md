@@ -16,7 +16,7 @@ The build for this profile is based on https://github.com/HeliosProfiles/DCS-CH-
 **Remember to always make a back up of files before making changes**
 
 This is a profile for Helios Virtual Cockpit software, for use with DCS World
-
+This profile utilises an updated set of JSON interfaces which have been contributed to was written into the Helios Virtual Cockpit project called **Helios**.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 ### ABOUT
 
 ### Minimum Helios version required: 1.6.6110.0005
@@ -27,6 +27,7 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
+Special thanks to @BlueFinBima for all of his contributions including the interface, custom made controls, toolbox items, repository help and more!
 
 
 ### IMAGES
