@@ -4402,7 +4402,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.LinearPotentiometerAnimated" Name="Right lever" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.LinearPotentiometerDetentsAnimated" Name="Right lever" SnapTarget="True" Locked="True">
                   <Location>185,2</Location>
                   <Size>54,360</Size>
                   <Hidden>False</Hidden>
@@ -4417,9 +4417,12 @@
                     <Sensitivity>0</Sensitivity>
                     <InvertVerticalSwipeDirection>True</InvertVerticalSwipeDirection>
                   </ClickType>
+                  <DetentPositions>
+                    <DetentPosition Position="0.5" />
+                  </DetentPositions>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.LinearPotentiometerAnimated" Name="Left lever" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.LinearPotentiometerDetentsAnimated" Name="Left lever" SnapTarget="True" Locked="True">
                   <Location>111,2</Location>
                   <Size>54,360</Size>
                   <Hidden>False</Hidden>
@@ -4434,6 +4437,9 @@
                     <Sensitivity>0</Sensitivity>
                     <InvertVerticalSwipeDirection>True</InvertVerticalSwipeDirection>
                   </ClickType>
+                  <DetentPositions>
+                    <DetentPosition Position="0.5" />
+                  </DetentPositions>
                   <Children />
                 </Control>
               </Children>
@@ -8728,12 +8734,12 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).Engine 2 Power Lever.changed" />
-      <Action Target="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Right lever;Helios.Base.LinearPotentiometerAnimated;Right lever" Name="set.value" />
+      <Action Target="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Right lever;Helios.Base.LinearPotentiometerDetentsAnimated;Right lever" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).Engine 1 Power Lever.changed" />
-      <Action Target="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Left lever;Helios.Base.LinearPotentiometerAnimated;Left lever" Name="set.value" />
+      <Action Target="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Left lever;Helios.Base.LinearPotentiometerDetentsAnimated;Left lever" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -13043,14 +13049,54 @@
       <StaticValue>1</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Right lever;Helios.Base.LinearPotentiometerAnimated;Right lever" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Right lever;Helios.Base.LinearPotentiometerDetentsAnimated;Right lever" Name="value.changed" />
       <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).set.Engine 2 Power Lever" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Left lever;Helios.Base.LinearPotentiometerAnimated;Left lever" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Right lever;Helios.Base.LinearPotentiometerDetentsAnimated;Right lever" Name="detent 1.holding" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).release.Engine 2 Lever Detent Gate" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Right lever;Helios.Base.LinearPotentiometerDetentsAnimated;Right lever" Name="detent 1.released" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).push.Engine 2 Lever Detent Gate" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Right lever;Helios.Base.LinearPotentiometerDetentsAnimated;Right lever" Name="maximum value position.released" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).push.Engine 2 Lever Detent Gate" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Right lever;Helios.Base.LinearPotentiometerDetentsAnimated;Right lever" Name="minimum value position.released" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).release.Engine 2 Lever Detent Gate" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Left lever;Helios.Base.LinearPotentiometerDetentsAnimated;Left lever" Name="value.changed" />
       <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).set.Engine 1 Power Lever" />
       <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Left lever;Helios.Base.LinearPotentiometerDetentsAnimated;Left lever" Name="maximum value position.released" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).push.Engine 1 Lever Detent Gate" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Left lever;Helios.Base.LinearPotentiometerDetentsAnimated;Left lever" Name="minimum value position.released" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).release.Engine 1 Lever Detent Gate" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Left lever;Helios.Base.LinearPotentiometerDetentsAnimated;Left lever" Name="detent 1.holding" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).release.Engine 1 Lever Detent Gate" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Engine Lever Panel.Left lever;Helios.Base.LinearPotentiometerDetentsAnimated;Left lever" Name="detent 1.released" />
+      <Action Target="Interface;;Helios.CH47F;DCS CH-47F Chinook" Name="Engine Control (Overhead Console).push.Engine 1 Lever Detent Gate" />
+      <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Overhead Panel 1.Int Light Panel.emer exit;Helios.Base.ThreeWayToggleSwitch;emer exit" Name="position.changed" />
