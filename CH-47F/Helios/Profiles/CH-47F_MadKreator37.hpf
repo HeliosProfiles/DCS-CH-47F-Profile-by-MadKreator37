@@ -149,7 +149,7 @@
           <OnImage>MadKreator37\CH-47F\Indicators\Batt_Low.png</OnImage>
           <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
           <Font>
-            <FontFamily>Franklin Gothi c</FontFamily>
+            <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
             <FontSize>6.88888888888889</FontSize>
@@ -2598,7 +2598,7 @@
               <OnImage>MadKreator37\CH-47F\Indicators\Yellow_Light.png</OnImage>
               <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
               <Font>
-                <FontFamily>Franklin Gothi c</FontFamily>
+                <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
                 <FontSize>4</FontSize>
@@ -2624,7 +2624,7 @@
               <OnImage>MadKreator37\CH-47F\Indicators\Yellow_Light.png</OnImage>
               <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
               <Font>
-                <FontFamily>Franklin Gothi c</FontFamily>
+                <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
                 <FontSize>4</FontSize>
@@ -2650,7 +2650,7 @@
               <OnImage>MadKreator37\CH-47F\Indicators\Yellow_Light.png</OnImage>
               <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
               <Font>
-                <FontFamily>Franklin Gothi c</FontFamily>
+                <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
                 <FontSize>4</FontSize>
@@ -2676,7 +2676,7 @@
               <OnImage>MadKreator37\CH-47F\Indicators\Yellow_Light.png</OnImage>
               <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
               <Font>
-                <FontFamily>Franklin Gothi c</FontFamily>
+                <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
                 <FontSize>4</FontSize>
@@ -2702,7 +2702,7 @@
               <OnImage>MadKreator37\CH-47F\Indicators\ICU.png</OnImage>
               <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
               <Font>
-                <FontFamily>Franklin Gothi c</FontFamily>
+                <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
                 <FontSize>6</FontSize>
@@ -3934,7 +3934,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\RED.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>3.33333333333333</FontSize>
@@ -3960,7 +3960,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\Green.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>3.11111111111111</FontSize>
@@ -4072,7 +4072,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\Util_Press.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>8</FontSize>
@@ -4098,7 +4098,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\APU_Rdy.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>8</FontSize>
@@ -5562,7 +5562,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\ARM.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>6</FontSize>
@@ -5684,7 +5684,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\Antenna_Sel_1.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>9.77777777777778</FontSize>
@@ -5713,7 +5713,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\Antenna_Sel_2.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>9.77777777777778</FontSize>
@@ -5894,7 +5894,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\Yellow_Light.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>2.44444444444445</FontSize>
@@ -5920,7 +5920,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\Yellow_Light.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>2.44444444444445</FontSize>
@@ -5946,7 +5946,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\Yellow_Light.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>2.44444444444445</FontSize>
@@ -5972,7 +5972,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\Yellow_Light.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>2.44444444444445</FontSize>
@@ -5998,7 +5998,7 @@
                   <OnImage>MadKreator37\CH-47F\Indicators\ICU.png</OnImage>
                   <OffImage>MadKreator37\CH-47F\Transparent_Image.png</OffImage>
                   <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
+                    <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>4</FontSize>
