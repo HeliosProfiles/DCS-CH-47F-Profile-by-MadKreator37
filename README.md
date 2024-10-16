@@ -1,3 +1,4 @@
+![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/HeliosProfiles/DCS-CH-47F-Profile-by-MadKreator37/latest/total?style=plastic&label=Latest%20Release%20D%2FL&labelColor=20cd20)
 # Helios Profile for the CH-47F Chinook (Pilot Only) for DCS World by MadKreator37
 ----
 ### If you only want this profile * * DON'T  CLONE * * the repository.  Simply download the __helios16__ file from the **Assets** section at the bottom of the release.
