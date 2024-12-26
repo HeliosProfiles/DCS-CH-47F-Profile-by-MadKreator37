@@ -7033,7 +7033,7 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>6</TimerInterval>
+              <TimerInterval>8</TimerInterval>
               <Children>
                 <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="True">
                   <Location>447,17</Location>
@@ -7051,7 +7051,7 @@
                     <UseThresholdValues>True</UseThresholdValues>
                     <InitialValue>0</InitialValue>
                     <MinimumValue>0</MinimumValue>
-                    <MaximumValue>23</MaximumValue>
+                    <MaximumValue>5</MaximumValue>
                   </Thresholds>
                   <Children />
                 </Control>
@@ -14569,7 +14569,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Panel.Splash Screen Panel.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Panel.Splash Screen Panel.Label;Helios.Base.Text;Label" Name="set.Text" />
-      <LuaScript>return(string.sub("CH-47F _ProfileVersionNumber ",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub("CH-47F   _ProfileVersionNumber ",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Panel.Splash Screen Panel.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
