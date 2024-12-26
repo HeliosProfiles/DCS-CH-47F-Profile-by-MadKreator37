@@ -26,7 +26,7 @@ This is a profile for Helios Virtual Cockpit software, for use with DCS World
 This profile utilises an updated set of JSON interfaces which have been contributed to was written into the Helios Virtual Cockpit project called **Helios**.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 ### ABOUT
 
-### Minimum Helios version required: 1.6.6110.0005
+### Minimum Helios version required: 1.6.6120.0002
 
 ### Please download and install via the Helios16 installer under ASSETS. Do not clone the repo and copy the files. The profile will not function correctly!
 
