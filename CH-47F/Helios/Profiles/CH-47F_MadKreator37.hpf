@@ -7051,7 +7051,7 @@
                     <UseThresholdValues>True</UseThresholdValues>
                     <InitialValue>0</InitialValue>
                     <MinimumValue>0</MinimumValue>
-                    <MaximumValue>5</MaximumValue>
+                    <MaximumValue>25</MaximumValue>
                   </Thresholds>
                   <Children />
                 </Control>
