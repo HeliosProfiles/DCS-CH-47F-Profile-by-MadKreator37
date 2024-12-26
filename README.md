@@ -5,6 +5,12 @@
 ![Screenshot 2024-10-06 180021](https://github.com/user-attachments/assets/05fec83e-18a6-45f3-96af-91a10b01c3a7)
 
 ----
+## Changes from 1.0.1
+
+- Added Splash Screen
+- Added built in "controls indicator" panel. Shows up by default over the SFD. Can be toggled on/off by new button "CTRL RPT"
+- Added  "Left Alt" and "Right Alt" modifiers to the "Keys Panel"
+
 ## The Profile
 
 
