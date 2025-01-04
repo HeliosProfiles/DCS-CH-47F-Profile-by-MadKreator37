@@ -11,6 +11,9 @@
 - Added built in "controls indicator" panel. Shows up by default over the SFD. Can be toggled on/off by new button "CTRL RPT"
 - Added  "Left Alt" and "Right Alt" modifiers to the "Keys Panel"
 
+## Changes from 1.0.2
+- Fix Stick Position Indicator
+
 ## The Profile
 
 
