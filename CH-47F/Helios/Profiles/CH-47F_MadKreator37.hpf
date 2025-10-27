@@ -182,14 +182,14 @@
           <Location>221,234</Location>
           <Size>486,600</Size>
           <Hidden>False</Hidden>
-          <EmbeddedViewportName>CH47F_MFD_CENTER</EmbeddedViewportName>
+          <EmbeddedViewportName>CENTER_MFCD</EmbeddedViewportName>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.CH47F.MFD.PilotLeft" Name="MFD (Pilot Left)" SnapTarget="True" Locked="True">
           <Location>929,80</Location>
           <Size>486,600</Size>
           <Hidden>False</Hidden>
-          <EmbeddedViewportName>CH47F_MFD_PILOT_LEFT</EmbeddedViewportName>
+          <EmbeddedViewportName>LEFT_MFCD</EmbeddedViewportName>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.CH47F.CDU.Top.Pilot" Name="CDU (Right)" SnapTarget="True" Locked="True">
@@ -211,7 +211,7 @@
           <Location>713,316</Location>
           <Size>210,210</Size>
           <Hidden>False</Hidden>
-          <EmbeddedViewportName>CH47F_SFD_PILOT</EmbeddedViewportName>
+          <EmbeddedViewportName>RIGHT_SFD</EmbeddedViewportName>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.CH47F.Chronometer" Name="M880 Chronometer" SnapTarget="True" Locked="True">
