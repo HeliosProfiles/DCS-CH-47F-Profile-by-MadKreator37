@@ -30,7 +30,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
         with:
           fetch-depth: '0'
       - name: Set outputs
@@ -41,7 +41,7 @@ jobs:
           echo "actor=${GITHUB_ACTOR}" >> $GITHUB_OUTPUT
       - name: Bump version and push 
         id: bump_tag
-        uses: anothrNick/github-tag-action@1.64.0
+        uses: anothrNick/github-tag-action@1.75.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: HeliosVirtualCockpit
@@ -54,7 +54,7 @@ jobs:
           echo "Commit SHA (short) - " ${{ steps.vars.outputs.sha_short }}
           echo "New Release - V " ${{ steps.bump_tag.outputs.tag }}
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.9'
       - name: Install dependencies
