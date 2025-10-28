@@ -1247,7 +1247,7 @@
           </Interaction>
           <Children>
             <Control TypeIdentifier="Helios.Base.Image" Name="Image 2" SnapTarget="False" Locked="True">
-              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Vertical_Percent_Gauge.png</Image>
+              <Image>MadKreator37\CH-47F\Bezels_And_Faces\Vertical_Percent_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>13,29</Location>
@@ -1256,7 +1256,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Image" Name="Image 1" SnapTarget="False" Locked="True">
-              <Image>MadKreator37\OH-6A\Bezels_And_Faces\Horizontal_Percent_Gauge.png</Image>
+              <Image>MadKreator37\CH-47F\Bezels_And_Faces\Horizontal_Percent_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>31,179</Location>
@@ -1277,7 +1277,7 @@
               <Location>1,24</Location>
               <Size>172,169</Size>
               <Hidden>False</Hidden>
-              <TapeImage>MadKreator37\OH-6A\Needles_Tapes_Pointers\Slip_Ball_Reapeater_Throttle.png</TapeImage>
+              <TapeImage>MadKreator37\CH-47F\Needles_Tapes_Pointers\Slip_Ball_Reapeater_Throttle.png</TapeImage>
               <OffFlagImage />
               <ForegroundImage />
               <BackgroundImage />
@@ -1313,7 +1313,7 @@
               <Location>22,33</Location>
               <Size>172,169</Size>
               <Hidden>False</Hidden>
-              <TapeImage>MadKreator37\OH-6A\Needles_Tapes_Pointers\Slip_Ball_Reapeater.png</TapeImage>
+              <TapeImage>MadKreator37\CH-47F\Needles_Tapes_Pointers\Slip_Ball_Reapeater.png</TapeImage>
               <OffFlagImage />
               <ForegroundImage />
               <BackgroundImage />
@@ -1349,7 +1349,7 @@
               <Location>19,10</Location>
               <Size>172,169</Size>
               <Hidden>False</Hidden>
-              <TapeImage>MadKreator37\OH-6A\Needles_Tapes_Pointers\Slip_Ball_Reapeater.png</TapeImage>
+              <TapeImage>MadKreator37\CH-47F\Needles_Tapes_Pointers\Slip_Ball_Reapeater.png</TapeImage>
               <OffFlagImage />
               <ForegroundImage />
               <BackgroundImage />
