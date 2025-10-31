@@ -5,14 +5,19 @@
 ![Screenshot 2024-10-06 180021](https://github.com/user-attachments/assets/05fec83e-18a6-45f3-96af-91a10b01c3a7)
 
 ----
-## Changes from 1.0.1
+### Changes from 1.0.1
 
 - Added Splash Screen
 - Added built in "controls indicator" panel. Shows up by default over the SFD. Can be toggled on/off by new button "CTRL RPT"
 - Added  "Left Alt" and "Right Alt" modifiers to the "Keys Panel"
 
-## Changes from 1.0.2
+### Changes from 1.0.2
 - Fix Stick Position Indicator
+
+### Changes from 1.0.3
+- Minimum release of Helios changed to 1.6.616 Hotfix 2 to pick up new patches necessitated by ED changes to the CH-47F
+- Viewport names for the Pilot MFDs changed to LEFT_MFCD and RIGHT_MFCD. The center MFD uses the Viewport name CENTER_MFCD. These MFD's do not require patches. The SFD viewport names have been changed to LEFT_SFD for the copilot and RIGHT_SFD for the pilot.
+- Images referencing the OH-6A directories have been altered to correctly point at the CH-47F image folder.
 
 ## The Profile
 
