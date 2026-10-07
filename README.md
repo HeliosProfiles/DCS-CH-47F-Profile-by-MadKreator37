@@ -19,6 +19,11 @@
 - Viewport names for the Pilot MFDs changed to LEFT_MFCD and RIGHT_MFCD. The center MFD uses the Viewport name CENTER_MFCD. These MFD's do not require patches. The SFD viewport names have been changed to LEFT_SFD for the copilot and RIGHT_SFD for the pilot.
 - Images referencing the OH-6A directories have been altered to correctly point at the CH-47F image folder.
 
+### Changes from 1.0.4
+- New Minimum Helios Release 1.6.620
+- Misc fixes from module data changes by ED.
+- Replaced CDU and Chronometer viewports with new default viewport naming by ED,
+
 ## The Profile
 
 
