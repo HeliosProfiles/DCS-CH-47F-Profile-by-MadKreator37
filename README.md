@@ -23,7 +23,7 @@
 - New Minimum Helios Release 1.6.620
 - Misc fixes from module data changes by ED.
 - Replaced CDU and Chronometer viewports with new default viewport naming by ED,
-
+- Added Ramp Position gauge.
 ## The Profile
 
 
